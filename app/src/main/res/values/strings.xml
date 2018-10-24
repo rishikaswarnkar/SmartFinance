@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Smart Finances</string>
+    <string name="txtSplash">Smart Finance</string>
+    <string name="txtCreditPayment">Calulate Monthly Payment PayOff Time</string>
+    <string name="txtMoneyConversion">Convert Currency</string>
+    <string name="btnCalulate">Calculate</string>
+    <string name="radDollar">Convert From Rupees to Dollar</string>
+    <string name="radRuppees">Convert from Dollar to Rupees</string>
+    <string name="txtHint">Enter Amount</string>
+    <string name="txtCredit">Calculate monthly payment required to pay off credit debt:</string>
+    <string name="txtInterest">Annual Interest Rate</string>
+    <string name="txtYear">Number of Years to pay it off</string>
+    <string name="txtTotalInterest">Total Interest Paid to Credit Card</string>
+    <string name="txtMonth">Enter Monthly Payment</string>
+    <string name="txtCreditBal">Credit Card Balance</string>
+    <string name="title_activity_appointment">appointment</string>
+    <string name="txtAppointment">Make a Appointment with a Financial Advisor</string>
+    <string name="txtSetDate">set date</string>
+    <string name="txtSetApp">Make an appointment</string>
+    <string-array name="txtGroup">
+        <item> 12 pm to 1pm</item>
+        <item> 2 pm to 3 pm</item>
+        <item> 4 pm to 5 pm</item>
+    </string-array>
+
+</resources>

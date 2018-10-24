@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".conversion"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+               android:layout_marginTop="34dp"
+        android:text="@string/txtMoneyConversion"
+        android:textSize="32sp"
+        android:layout_centerHorizontal="true"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="113dp"
+        android:layout_below="@id/textView">
+
+
+        <RadioButton
+            android:id="@+id/radDollar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radDollar"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radRupees"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radRuppees"
+            android:textSize="20sp"
+
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="132dp" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:ems="10"
+        android:hint="@string/txtHint"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+       android:layout_below="@id/radioGroup2" />
+    <Button
+        android:id="@+id/btnCal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btnCalulate"
+        android:layout_below="@id/amount"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txtAnswer"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/btnCal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="124dp"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>
